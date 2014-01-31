@@ -1107,9 +1107,9 @@ table.plain {
     .post-template .post-header {
         padding: 30px 0;
     }
-.post-excerpt p {
-	font-size: 1.7rem;
-}
+    .post-excerpt p {
+        font-size: 1.7rem;
+    }
     .post-meta {
         font-size: 1.3rem;
     }
@@ -1146,6 +1146,9 @@ table.plain {
     .newer-posts {
         position: static;
         margin: 10px 0;
+    }
+
+    .post-comments {
     }
 
     .page-number {
