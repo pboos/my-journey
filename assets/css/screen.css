@@ -411,17 +411,17 @@ table.plain {
 
 /* The details of your blog. Defined in ghost/settings/ */
 .blog-title {
-    margin: 5px 0 10px 0;
-    font-size: 5rem;
+    margin: 5px 0 2px 0;
+    font-size: 4rem;
     letter-spacing: -1px;
-    float: left;
+    /*float: left;*/
     color: #50585D;
 }
 
 .blog-description {
     margin: 0;
     font-size: 1.8rem;
-    line-height: 5em;
+    line-height: 0.2em;
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0;
@@ -984,9 +984,9 @@ table.plain {
         min-height: 240px;
         padding: 10% 0;
     }
-
+/*
     .blog-title {
-        font-size: 4rem;
+        font-size: 3rem;
         letter-spacing: -1px;
     }
 
@@ -994,6 +994,8 @@ table.plain {
         font-size: 1.7rem;
         line-height: 5em !important;
     }
+*/
+
     .vertical {
         margin: -20px 0 40px 0;        
     }
@@ -1045,9 +1047,9 @@ table.plain {
 @media only screen and (max-width: 500px) {
 
     #blog-logo img {
- 	 max-width:80px;
+        max-width: 80px;
         max-height: 80px;
-        margin: -20px 5px;
+        margin: -20px 20px 0px 5px;
     }
     
     .inner, 
@@ -1072,9 +1074,10 @@ table.plain {
         margin: -10px 0;
     }
 
+/*
     .blog-title {
-        font-size: 3rem;
-        margin: 4px 0 4px 10px;
+        font-size: 2.5rem;
+        margin: 4px 0 2px 10px;
     }
 
     .blog-description {
@@ -1082,6 +1085,8 @@ table.plain {
         float: left;
         line-height: 1em !important;
     }
+*/
+
     .share-top {
         visibility:hidden   
     }
